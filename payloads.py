@@ -1,0 +1,5 @@
+payloads=open('payloads.txt',"r")
+content=payloads.read()
+print(content)
+lst=content.split("\n")
+print(lst)
